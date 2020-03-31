@@ -1,0 +1,65 @@
+#time {
+    color : red;
+    font-size: 80px;    
+}
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+  }
+
+#table {
+    color: blue;
+    font-size: 25px;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
+td #countries {
+    height: 10px;
+    width: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#countries {
+    color: black;
+    font-size: 25px;
+}
+#items{
+    display: flex;
+    font-family: 'Lato', sans-serif, sans-serif;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card {
+    width: 24%;
+    background-color: #FBDDDD;
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
+
+#item-name {
+    border: 1px solid gray ;
+    border-radius: 10px;
+}
+#item-stock {
+    font-style: italic;
+}
+
+#item-discription {
+    margin: 0% 3% 0% 3%;
+}
+
+.price{
+    color: slateblue;
+}
